@@ -28,31 +28,11 @@ $(window).on('load', function() {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-	/* 2. Count Down module */
-	(function () {
-		function countDown() {
-			var eventDate = new Date(2017, 6, 1, 0, 0, 0, 0),
-				date = new Date(),
-				timeDiff = Math.abs(eventDate.getTime() - date.getTime()),
-				diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)),
-				diffHours = (Math.ceil(timeDiff / (1000 * 3600)) % 12),
-				diffMinutes = (Math.ceil(timeDiff / (1000 * 60)) % 60),
-				diffSeconds = (Math.ceil(timeDiff / (1000)) % 60);
-			document.getElementById('counter__time-days').innerHTML = diffDays;
-			document.getElementById('counter__time-hours').innerHTML = diffHours;
-			document.getElementById('counter__time-minutes').innerHTML = diffMinutes;
-			document.getElementById('counter__time-seconds').innerHTML = diffSeconds;
-		}
-		countDown();
-		setInterval(function () {
-			countDown();
-		}, 1000);
-	}());
-	/* 2. END Count Down module */
 	/* 3. Slick slider */
 	$('.speakers__slider').slick({
-		slidesToShow: 4,
-		slidesToScroll: 4,
+		slidesToShow: 5,
+
+		slidesToScroll: 5,
 		responsive: [
 			{
 				breakpoint: 992,

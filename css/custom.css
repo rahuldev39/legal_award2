@@ -145,8 +145,7 @@
   color: white;
 }
 .speakers-container {
-    display: flex;
-    width: 100%;
+
     margin-bottom: 40px;
 }
 .speakers-item {
@@ -161,10 +160,10 @@
 }
 .speakers-item .s-info {
     text-align: right;
-    max-width: 200px;
+    max-width: 210px;
 }
 .speakers-item .s-info h4 {
-    font-size: 39px;
+    font-size: 34px;
     font-weight: 900;
     color: #e4a939;
 }
@@ -185,8 +184,10 @@
     z-index: auto;
 }
 .speakers-item .s-img img {
-    max-width: 170px;
+    max-width: 155px;
 }
+
+
 .speakers-item:nth-child(2n)
 {
   background-color: #eff1f5;
@@ -244,6 +245,38 @@
 .speaker-item {
     margin: 15px 0;
 }
+.page-internal .header__container {
+    padding-bottom: 30px;
+}
+.page-internal .header__container h2{
+  text-align: center;
+      font-size: 38px;
+      color: #e5a93a;
+}
+.page-internal .speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-internal .speakers-item .s-info h4 {
+    font-size: 29px;
+}
+.page-internal .speakers-item .s-img img {
+    max-width: 120px;
+}
+.page-internal .speakers-item {
+    height: 257px;
+    width: calc(20% - 6px);
+    flex: none;
+}
+.breadcrumb-nav{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-nav .breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0px
+}
 @media only screen and (min-width: 992px)
 {
   .hidden-md{
@@ -260,7 +293,9 @@
       text-align: center;
       padding: 60px 0px;
   }
-
+  .page-internal .speakers-item {
+    width: calc(33.3% - 6px);
+}
 
 }
 @media (max-width: 768px)
@@ -268,7 +303,9 @@
 .categories-block {
     width: 45.5%;
 }
-
+.page-internal .speakers-item {
+  width: calc(50% - 6px);
+}
 }
 @media (max-width: 500px)
 {
