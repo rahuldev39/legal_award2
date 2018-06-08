@@ -22,8 +22,10 @@
     margin-bottom: 9px;
 }
 .association-block img {
-    max-width: 89px;
+    max-width: 430px;
     margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .lead-heading span {
     margin-bottom: 0px;
