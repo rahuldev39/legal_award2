@@ -732,7 +732,7 @@ input[type="submit"]:focus, input[type="button"]:focus{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    max-width: 980px;
+    max-width: 521px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px 10px;
@@ -754,13 +754,11 @@ input[type="submit"]:focus, input[type="button"]:focus{
   	border: none;
 }
 
-.header__info-item p {
-  	padding-top: 15px;
-  	font-family: "Montserrat", sans-serif;
-  	color: #1e253e;
-  	font-size: 16px;
-  	text-transform: uppercase;
-  	font-weight: 500;
+.header__info-item {
+    width: 50%;
+    text-align: center;
+    padding: 40px 0;
+    border-right: 1px solid #e8e8e8;
 }
 
 .header__info-ico {
@@ -1021,7 +1019,10 @@ input[type="submit"]:focus, input[type="button"]:focus{
   	background-color: #fff;
   	padding-bottom: 70px;
 }
+.border-top {
 
+    border-top: 1px solid #e2e2e2;
+}
 .schedule__blocks {
     position: relative;
 }

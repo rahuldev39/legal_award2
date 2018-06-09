@@ -138,14 +138,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	/* 7. END Map */
 	function initMap() {
 		var map = new google.maps.Map(document.getElementById('map'), {
-			center: { lat: 40.7143528, lng: -74.0059731 },
+			center: { lat: 1.3521, lng: 103.8198 },
 			scrollwheel: false,
 			zoom: 11,
 			controls: []
 		});
 		var icon = 'img/marker.png';
 		var marker = new google.maps.Marker({
-			position: { lat: 40.7143528, lng: -74.0059731 },
+			position: { lat: 1.3521, lng: 103.8198 },
 			icon: icon,
 			map: map
 		});

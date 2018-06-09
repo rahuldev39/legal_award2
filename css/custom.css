@@ -27,6 +27,10 @@
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.association-block img:first-child{
+  display: block;
+  margin: 0 auto;
+}
 .lead-heading span {
     margin-bottom: 0px;
     display: block;
@@ -278,6 +282,92 @@
 .breadcrumb-nav .breadcrumb {
     background-color: transparent;
     margin-bottom: 0px
+}
+.action-btn {
+    padding: 4px 8px;
+    font-size: 11px;
+    margin-right: 4px;
+    background-color: #2a3045;
+    border: 1px solid #2a3045;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    min-width: auto;
+}
+.action-btn:hover{
+  background-color: transparent;
+  color: #2a3045;
+  border: 1px solid #2a3045;
+  cursor: pointer;
+}
+.action-btn:active, .action-btn:focus {
+    color: #fff !important;
+    background-color: #242a40 !important;
+    border-color: #2a3045 !important;
+    box-shadow: 0 0 0 0.2rem rgba(41, 47, 68, 0.11) !important;
+}
+.category-table th {
+    background-color: #2a3045;
+    color: #ffffff;
+    border-color: #292929 !important;
+}
+.modal-header {
+    background-color: #2a3045;
+    color: white;
+}
+label {
+    display: inline-block;
+    margin-bottom: .29rem;
+    font-weight: 500;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2a3045;
+    border-color: #2a3045;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1f2435;
+    border-color: #2a3045;
+}
+.btn-primary:active, .btn-primary:focus {
+    color: #fff !important;
+    background-color: #21273c !important;
+    border-color: #21283c !important;
+}
+.btn-default:hover, .btn-default:focus {
+    background-color: #2a3045;
+    color: #ffffff;
+}
+.modal-footer .btn {
+    font-size: 12px;
+    padding: 7px 12px;
+    min-width: auto;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #2a304561;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(42, 48, 69, 0.1);
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #a2a5b1;
+    text-shadow: none;
+    opacity: .8;
+}
+.close:focus, .close:hover {
+    color: #fff;
+}
+.form-control {
+    font-size: .9rem;
+}
+.modal-title {
+    font-size: 19px;
 }
 @media only screen and (min-width: 992px)
 {
